@@ -1,6 +1,7 @@
 *{
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 html{
@@ -8,8 +9,8 @@ html{
 }
 
 .image{
-    width: 245px;
-    height: 230px;
+    width: 265px;
+    height: 250px;
     max-width: 100%;
     border-radius: 50%;
 }
@@ -24,7 +25,7 @@ p{
     margin-top: 15px;
     margin-left: 20px;
     font-family: "Roboto", sans-serif;
-    font-size: 22px;
+    font-size: 25px;
 }
 
 .container{
@@ -34,4 +35,22 @@ p{
     align-items: center;
     justify-content: center;
     
+}
+.social-list{
+    margin-top: 25px;
+    font-family: "Roboto mono", sans-serif;
+    font-size: 20px;
+}
+
+.social-icon{
+    padding: 15px;
+}
+
+.icon-size{
+    font-size: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
 }
